@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url(veg1.jpg);
+  user-select: none;
+}
+
+.wrapper {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(105, 195, 197);
+  opacity: 68%;
+  border-radius: 1rem;
+  padding: 40px 20px;
+  box-shadow: 30px 50px 30px black;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.input {
+  text-align: left;
+  margin-left: 118px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+#Height,
+#Weight {
+  color: #222f3e;
+  text-align: left;
+  font-size: 21px;
+  font-weight: 200;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #d1d6d8;
+  border-right: 1px solid #d1d6d8;
+  width: 200px;
+}
+
+#Weight:focus,
+#Height:focus {
+  border-bottom: 2px solid #d1d6d8;
+  width: 300px;
+  transition: 0.4s;
+}
+
+#output {
+  color: #57240c;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(49, 92, 93);
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 2px black;
+}
+
+#btn:active {
+  background: rgb(226, 238, 238);
+  color: black;
+  box-shadow: 0 5px black;
+  transform: translateY(2px);
+}
+
+.loader {
+  display: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3 id="info">Enter Height(cm) and Weight(kg)</h3>
+      <p class="input">Height</p>
+      <input type="number" onfocus="this.value=''" id="Height" />
+
+      <p class="input">Weight</p>
+      <input type="number" onfocus="this.value=''" id="Weight" />
+
+      <!-- loader image-->
+      <div class="loader">
+        <img src="loading.gif" alt="" />
+      </div>
+
+      <p id="Output"></p>
+      <p id="State"></p>
+
+      <!--Create 2 buttons to calculate BMI-->
+      <button id="btn" class="calculate">Calculate</button>
+      <button id="btn" class="clear">Clear</button>
+
+      <!--Footer-->
+      <footer class="">&copy; Designed by Ajinkya Uddhav Pande</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
